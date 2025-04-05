@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gidole-regular {
+    font-family: "Gidole", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    line-height: 1.6;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Header Animation */
+header {
+    background: #f371b2;
+    color: #7b5bf0;
+    padding: 10px 0;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+header nav ul li:hover {
+    transform: scale(1.1);
+}
+
+nav ul li a {
+    color: #070708;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: rgb(106, 106, 212);
+}
+body {
+    line-height: 1.6;
+    height: 100vh;
+    width: 100%; 
+    background-image:url(../images/background.png);
+    background-size: cover;
+  background-position: center;
+    color: #333;
+    padding: 20px;
+}
+#project{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#project h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+       
+}
+#project h3 {
+   text-align: left;
+    border-radius: 6px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.project-list img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.project-list p{
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: 0 auto;
+       
+    }
+    footer {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 1rem;
+        background: #ec80b6;
+        color: #382874;
+        padding: 15px 0;
+         animation: fadeIn 2s ease-in-out;
+    }
+    
